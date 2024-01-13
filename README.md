@@ -8,7 +8,7 @@ Download and instructions
 
 Instructions:
 - [Brand new install (Flashing from Stock KT-R1 Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS-MTK#instructions---brand-new-install-flashing-from-stock-kt-r1-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
-- [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
+- [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS-MTK#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 Information
 ----------------------------
