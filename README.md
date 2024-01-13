@@ -42,8 +42,6 @@ Instructions - Brand new install (Flashing from Stock KT-R1 Firmware. Bootloader
 ----------------------------
 
 Prerequisites:
-- For the bootloader unlocking method using Google Chrome, [a Windows or MacOS installation](https://github.com/TheGammaSqueeze/GammaOS/issues/12).
-- On Linux, the bootloader can be unlocked with [unisoc-unlock](https://github.com/patrislav1/unisoc-unlock) which requires Python.
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
 - Get ADB and Fastboot tools + drivers.
 
