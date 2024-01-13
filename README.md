@@ -18,7 +18,7 @@ Features:
 - Based on debloated and clean LineageOS 19.1 build, Android 12 for a smoother experience. GammaOS includes Google Services and Play Store. GammaOS Lite excludes Google apps and services for extra performance headroom.
 - Daijisho launcher as front-end, pre-configured with RetroArch for some systems. (Optimized settings for GB,GBC,GBA,NES,SNES,Genesis,PSX) (BIOS files need to be supplied by you).
 - Aurora store included.
-- Quick settings tiles for Performance modes, ABXY layout changes, Fan control, Adjusting analog stick sensitivity, invert axis for analog left/right, swap dpad and left analog input.
+- Quick settings tiles for Performance modes, ABXY layout changes, Adjusting analog stick sensitivity, invert axis for analog left/right, swap dpad and left analog input.
 - Adguard ad blocking included as default (can be disabled via Private DNS settings).
 - Magisk/root included.
 - 60hz refresh rate fix for display, color calibration to remove green tint and increase vibrance.
