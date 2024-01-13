@@ -81,7 +81,7 @@ Flashing the custom firmware:
 - Close all command prompt windows from before
 - Navigate to your extracted GammaOS/GammaOSLite folder
 - Open the FlashPartitions.bat script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient. Your device will reboot into fastbootd during this process.
-- Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. This step can take up to 10 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
+- Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
 - You can now reboot your KT-R1 by pressing the power button once.
 - Your device will reboot, and will stay at the KTPocket logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS!
