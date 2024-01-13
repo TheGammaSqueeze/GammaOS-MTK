@@ -51,6 +51,8 @@ Prerequisites:
 
 - Install Mediatek Drivers (included in the release zip in the MTK_USB_DRIVER folder). Run the Mediatek_Driver_Auto-Installer_5.1632.00.exe program.
 
+- Install Unisoc Drivers, run the DPInst64.exe program in your relevant OS folder. (Available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip, Win10 drivers will also work on Win11.)
+
 - Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
 **On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
