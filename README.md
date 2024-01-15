@@ -75,7 +75,7 @@ Unlocking bootloader:
 - Connect your KT-R1 to your PC via USB cable while booted into Android, open a command prompt/terminal window, and issue the following command:
   `adb reboot bootloader`
 - Your KT-R1 will reboot, and you will see the text "fastboot mode" on the bottom left of the screen 
-- In your command prompt/terminal window, issue the following command: fastboot flashing unlock
+- In your command prompt/terminal window, issue the following command: `fastboot flashing unlock`
 - On your KT-R1, you will have 3 seconds to press to volume up button to confirm that you want to unlock the bootloader. Press this.
 - You will see in the command prompt/terminal that the unlock is complete, as well as on the device itself.
 
