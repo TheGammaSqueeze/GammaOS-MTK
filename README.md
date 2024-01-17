@@ -88,7 +88,13 @@ Flashing the custom firmware:
 - Your device will reboot, and will stay at the KTPocket logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS!
 - **Don't forget to open the kLauncher app on your KT-R1 to set your joystick/ABXY layout, and to calibrate your sticks! Make sure to grant root access when opening the app when requested.**
-- **You may also want to install the Yuzu Controller fix Magisk module to ensure you don't have issues controlling games in Yuzu or other games. Module here: https://github.com/TheGammaSqueeze/GammaOS-MTK/blob/main/rgp2xbox_ktr1_yuzu_fix.zip Install and restart.**
+
+
+https://github.com/TheGammaSqueeze/GammaOS-MTK/assets/116582950/52477fc6-5f17-4871-920b-c3d373490f4f
+
+
+
+- **You may also want to install the Yuzu Controller fix Magisk module to ensure you don't have issues controlling games in Yuzu or other games. Module here: [https://github.com/TheGammaSqueeze/GammaOS-MTK/blob/main/rgp2xbox_ktr1_yuzu_fix.zip](https://github.com/TheGammaSqueeze/GammaOS-MTK/raw/main/rgp2xbox_ktr1_yuzu_fix.zip) Install and restart.**
 
 
 https://github.com/TheGammaSqueeze/GammaOS-MTK/assets/116582950/7ed50312-4c4b-448b-9ec3-47c4f1df8d6e
