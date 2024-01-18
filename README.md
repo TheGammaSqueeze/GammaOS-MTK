@@ -106,8 +106,19 @@ https://github.com/TheGammaSqueeze/GammaOS-MTK/assets/116582950/7ed50312-4c4b-44
 Help! My device is no longer booting! Or I want to go back to Stock OS!
 ----------------------------
 
-I will provide detailed instructions and rehost the official firmware in future. 
+The stock firmware can be downloaded here: https://drive.google.com/file/d/1SD--Ns0wbqkyk8FqrhD4hCi8Jgj3Sspy/view?usp=sharing
 
-For now, you can follow this guide and download from the KTPocket Discord server (https://discord.gg/vcneCAvM):
+Instructions:
+- Extract the zip file
+- Install Mediatek Drivers (included in the zip in the MTK_USB_DRIVER folder). Run the Mediatek_Driver_Auto-Installer_5.1632.00.exe program.
+- Open the SPFlashToolV6.exe application in the SP_Flash_Tool_V6 folder.
+- For the Download-XML, click the Choose button, then navigate to the location where you extracted the zip file. Choose the file: G98_230726/download_agent/flash.xml
+- In the dropdown option under the Download button, change this to Format All + Download. Ensure Auto Reboot is ticked under BROM Connection on the left:
+![image](https://github.com/TheGammaSqueeze/GammaOS-MTK/assets/116582950/60db5448-12e5-4d57-9262-ff49e1b90014)
 
+- When ready to flash the stock firmware, press the Download button.
+- Plug in your USB cable to your KT-R1, and hold down the power button until you see the progress bar move at the bottom of the application.
+- Once complete, your KT-R1 will automatically reboot into the stock firmware.
+
+You can also follow this guide and download from the KTPocket Discord server (https://discord.gg/vcneCAvM):
 https://discord.com/channels/971941186120060938/1134310003155664906/1191648409719930880
