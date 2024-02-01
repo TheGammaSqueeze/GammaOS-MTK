@@ -48,16 +48,19 @@ Prerequisites:
 **On Windows**
 
 - Ensure you install the Universal ADB Driver: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+  - Ensure both these boxes are ticked during the install
+  - ![image](https://github.com/TheGammaSqueeze/GammaOS-MTK/assets/116582950/3188d5ca-c1ec-4073-a979-f1c9483ccdba)
+
 
 - Install Mediatek Drivers (included in the release zip in the MTK_USB_DRIVER folder). Run the Mediatek_Driver_Auto-Installer_5.1632.00.exe program.
 
-- Install Unisoc Drivers, run the DPInst64.exe program in your relevant OS folder. (Available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip, Win10 drivers will also work on Win11.)
+- Install Unisoc Drivers (yes, that's right), run the DPInst64.exe program in your relevant OS folder. (Available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip, Win10 drivers will also work on Win11.)
 
 - Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
-**On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+**On MacOS**: Install homebrew: https://brew.sh/
 
-or via homebrew on **MacOS**:
+Via homebrew on **MacOS**:
 - `brew update`
 - `brew install android-platform-tools`
 
@@ -69,7 +72,7 @@ On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has
 
 **On the KT-R1** device itself:
 - Enable USB Debugging on the KT-R1: https://developer.android.com/studio/debug/dev-options
-- In the same Developer Options you enable USB debugging in, enable OEM unlock.
+- **In the same Developer Options you enable USB debugging in, enable OEM unlock.**
 
 Unlocking bootloader:
 - Connect your KT-R1 to your PC via USB cable while booted into Android, open a command prompt/terminal window, and issue the following command:
@@ -82,8 +85,14 @@ Unlocking bootloader:
 Flashing the custom firmware:
 - Close all command prompt windows from before
 - Navigate to your extracted GammaOS/GammaOSLite folder
-- Open the FlashPartitions.bat script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient. Your device will reboot into fastbootd during this process.
-- Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
+- Open the FlashPartitions script 
+  - Windows: double click the .bat file. 
+  - Mac/Linux, open a terminal in the GammaOS directory, issue the command `sh FlashPartitions.sh`
+- It will begin flashing the firmware. This step can take up to 10 minutes so be patient.
+- Open the EraseUserData script
+  - Windows: double click the .bat file. 
+  - Mac/Linux, open a terminal in the GammaOS directory, issue the command `sh EraseUserData.sh`
+- It will begin factory resetting your device in preperation for GammaOS. When the script is complete, the command prompt window will close itself after 60 seconds.
 - You can now reboot your KT-R1 by pressing the power button once.
 - Your device will reboot, and will stay at the KTPocket logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS!
